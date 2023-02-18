@@ -1,0 +1,136 @@
+:root{
+    --border-radius:5px;
+}
+
+
+html,body {
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+/*---------------------------HEADER-----------------------*/
+#main-header{
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 999;
+}
+
+#logo{
+    color: white;
+    width: 85px;
+    font-weight: bold;
+ 
+
+    
+}
+
+.yellow{
+    color: rgb(232, 232, 54);
+}
+.list-wrapper {
+    position: absolute;
+    right: 10px;
+    background-color: rgb(187, 143, 48);
+    padding:5px;
+    border-radius: var(--border-radius);
+    box-shadow: 2px 2px 2px;
+   display: none;
+   z-index: 10;
+}
+
+#hamburger{
+   display: none;
+   color: white;
+
+}
+
+#hamburger:checked~.list-wrapper {
+    display:block;
+
+
+}
+.fa-bars {
+    color: white;
+}
+
+
+/*----------------------------MAIN-MAIN-----------------------*/
+.main_main{
+    padding-top: 100px;
+}
+
+.black-rectangle{
+
+    height: 148px;
+    left: 0px;
+    top: 102px;
+    width: 393px;
+    background: linear-gradient(180deg, #000000 76.04%, rgba(0, 0, 0, 0) 95.31%);
+   
+}
+.note {
+    position: absolute;
+    width: 311px;
+    height: 70px;
+    left: 47px;
+    top: 121px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+.main_hall{
+    background-image: url(images/roberto-nickson-396152.jpg);
+    width: 400px;
+    height: 625px;
+    left: 0px;
+    top: 164px;
+    position: absolute;
+    background-size: contain;
+    z-index: 0;
+}
+
+.explorebtn {
+    width: 154px;
+    height: 51px;
+    left: 59px;
+    top: 90px;
+    position: absolute;
+  
+
+}
+.explorebutton{
+    COLOR: WHITE;
+    TEXT-DECORATION: none;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: var(--border-radius);
+    padding: 10px;
+}
+.note2 {
+    position: absolute;
+    width: 311px;
+    height: 70px;
+    left: 47px;
+    top: 458px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    color: #FFFFFF; 
+    z-index: 2;
+}
