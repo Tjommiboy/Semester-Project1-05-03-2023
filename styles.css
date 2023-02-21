@@ -1,5 +1,11 @@
 :root{
     --border-radius:5px;
+    --color-white:white;
+    --color-golden: #de904d;
+    --color-black: #000000;
+    --color-science:rgb(232, 232, 54);
+    --width:393px;
+ 
 }
 
 
@@ -12,6 +18,7 @@ html,body {
     padding: 0;
     margin:0;
     box-sizing: border-box;
+
 }
 /*---------------------------HEADER-----------------------*/
 #main-header{
@@ -23,14 +30,15 @@ html,body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 30px;
     z-index: 999;
 }
 
 #logo{
-    color: white;
+    color: var(--color-white);
     width: 85px;
     font-weight: bold;
+    font-size: 20px;
  
 
     
@@ -42,17 +50,21 @@ html,body {
 .list-wrapper {
     position: absolute;
     right: 10px;
-    background-color: rgb(187, 143, 48);
+    background-color: var(--color-golden);
+    TEXT-DECORATION: no;
     padding:5px;
     border-radius: var(--border-radius);
+    display: none;
+    z-index: 10;
+    text-decoration: none;
+    font-weight: bold;
     box-shadow: 2px 2px 2px;
-   display: none;
-   z-index: 10;
+    line-height: 56px;
 }
 
 #hamburger{
    display: none;
-   color: white;
+   color: var(--color-white);
 
 }
 
@@ -62,13 +74,17 @@ html,body {
 
 }
 .fa-bars {
-    color: white;
+    color: var(--color-white);
+    font-size: 25px;
 }
 
 
 /*----------------------------MAIN-MAIN-----------------------*/
 .main_main{
     padding-top: 100px;
+    background-color: #c1bebe;
+    width: 100%;
+    height: 1913px;
 }
 
 .black-rectangle{
@@ -76,8 +92,9 @@ html,body {
     height: 148px;
     left: 0px;
     top: 102px;
-    width: 393px;
+    width: var(--width);
     background: linear-gradient(180deg, #000000 76.04%, rgba(0, 0, 0, 0) 95.31%);
+    z-index: 1;
    
 }
 .note {
@@ -90,12 +107,13 @@ html,body {
     font-weight: 700;
     font-size: 13px;
     line-height: 17px;
-    color: #FFFFFF;
+    color: var(--color-white);
     z-index: 2;
 }
 .main_hall{
-    background-image: url(images/roberto-nickson-396152.jpg);
-    width: 400px;
+    background-image: url(images/roberto-nickson-396152\ resize.jpg);
+    background-repeat:no-repeat ;
+    width: var(--width);
     height: 625px;
     left: 0px;
     top: 164px;
@@ -108,16 +126,16 @@ html,body {
     width: 154px;
     height: 51px;
     left: 59px;
-    top: 90px;
+    top: 75px;
     position: absolute;
   
 
 }
 .explorebutton{
-    COLOR: WHITE;
+    color: var(--color-science) ;
     TEXT-DECORATION: none;
     font-weight: bold;
-    border: 2px solid white;
+    border: 2px solid var(--color-white);
     border-radius: var(--border-radius);
     padding: 10px;
 }
@@ -131,6 +149,499 @@ html,body {
     font-weight: 700;
     font-size: 13px;
     line-height: 17px;
-    color: #FFFFFF; 
+    color: var(--color-white); 
     z-index: 2;
+}
+/*----------------Special EVENTS-----------------------------*/
+.black_gradient{
+    width: var(--width);
+    height: 44px;
+    left: 0px;
+    top: 511px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 60.94%);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.bg_special {
+    background-color: var(--color-black);
+    width: var(--width);
+    height: 136px;
+    left: 0px;
+    top: 553px;
+    position: absolute;
+}
+
+.special_events {
+    color: var(--color-science);
+    /* text-align: center; */
+    top: 41px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 86px;
+    font-weight: bold;
+    font-size: 27px;
+}
+/*----------------Aeronautics---------------------------*/
+.aeronautics {
+    background-image: url(images/andrew-ruiz-348421.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 347.23px;
+    left: 0px;
+    top: 858px;
+    width: 100%;
+
+}
+.emne{
+    font-size: 27px;
+    text-align: center;
+    color: var(--color-white);
+    z-index: 11;
+    position: relative;
+    font-weight: bold;
+    
+}
+.aero_description{
+    color: var(--color-white);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    position: absolute;
+    padding: 10px;
+    top: 220px;
+    z-index: 10;
+    
+}
+.screen{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.69) 7.81%);
+    width: 100%;
+    height: 112px;
+    left: 0px;
+    top: 212px;
+    position: absolute;
+}
+.screen2{
+    background: linear-gradient(173deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.39) 5.31%);
+    width: 100%;
+    height: 320.23px;
+    left: 0px;
+    top: 0;
+    position: absolute;
+
+}
+/*-------------------energetica----------------*/
+.energetica{
+    background-image: url(images/Screenshot\ 2023-02-09\ at\ 00.12.14.jpg);
+    width: 100%;
+    height: 366px;
+    left: 0px;
+    top: 1187px;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.emne2{ font-size: 27px;
+    text-align: center;
+    color: var(--color-white);
+    z-index: 11;
+    position: relative;
+    font-weight: bold;
+
+}
+
+.energetica_description{
+    color: var(--color-white);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    position: absolute;
+    padding: 10px;
+    top: 220px;
+    z-index: 10;
+
+}
+
+
+.screen3{
+    position: absolute;
+    width: var(--width);
+    height: 345px;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.56);
+}
+/*----------------NIGHT AT THE MUSEUM----------------*/
+.night_at{
+    background-image: url(Images/nightmuseum.jpg);
+    width: var(--width);
+    height: 566px;
+    left: 0px;
+    top: 1537px;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.natm_description{
+    color: var(--color-white);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    position: absolute;
+    padding: 10px;
+    top: 260px;
+    z-index: 10;
+
+}
+.emne3{
+    font-size: 27px;
+    text-align: center;
+    color: var(--color-white);
+    z-index: 11;
+    position: relative;
+    font-weight: bold;
+
+}
+.exhibitions{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    flex: 1;
+    padding: 14px;
+    margin: 0;
+    height: 372px;
+    width: var(--width);
+}
+
+/*----------------------FOOTER----------------------------*/
+.footer {
+    position: absolute;
+    width: var(--width);
+    height: 910px;
+    left: 0px;
+    top:1913px;
+    background-color: #004DA5;
+    
+}
+.h2_footer1 {
+    color:var(--color-science);
+    left:20px;
+    top: 70px;
+    position: absolute;
+}
+.h2_footer2 {
+    color:var(--color-science);
+    left:20px;
+    top:168px;
+    position: absolute;
+}
+.hours { 
+    display: flex;
+    width: 241px;
+    height: 120px;
+    left: 20px;
+    top: 600px;
+    position: absolute;
+    color: white;
+}
+.entrance {
+    display: flex;
+    width: 361px;
+    height: 405px;
+    left: 20px;
+    top: 203px;
+    position: absolute;
+    color: white;
+}
+.tours{
+    display: flex;
+    width: 361px;
+    height: 405px;
+    left: 20px;
+    top: 296px;
+    position: absolute;
+    color: white;
+
+}
+.guided_tour{
+    display: flex;
+    width: 361px;
+    height: 405px;
+    left: 20px;
+    top: 386px;
+    position: absolute;
+    color: white;
+
+}
+.contact_us{
+    box-sizing: border-box;
+    width: 170px;
+    height: 51px;
+    left: 203px;
+    top: 497px;
+    border: 2px solid #FFFFFF;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    font-style: normal;
+    text-decoration: none;
+    color:var(--color-science);
+    border-radius: var(--border-radius);
+}
+.pattaya{
+    display: flex;
+    width: 361px;
+    height: 405px;
+    left: 20px;
+    top:   108px;
+    position: absolute;
+    color: white;
+}
+
+
+/*----------------------------Exhibition Spaces----------------------------*/
+/*----------------------------Exhibition Spaces----------------------------*/
+/*----------------------------Exhibition Spaces----------------------------*/
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+.flex2{
+    flex: 1;
+    padding: px;
+    margin: 0;
+    height: 372px;
+    width: var(--width);
+}
+
+.sign{
+    background-color:rgba(178, 118, 28, 0.65) ;
+    width: var(--width);
+    height: 74px;
+    top: 107px;
+    position: absolute;
+}
+.sign_exhi{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--color-white);
+    width: var(--width);
+    height: 74px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.cosmology{
+    background-image: url(images/max-mckinnon-c9OCWLka764-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: var(--width);
+    height: 754px;
+    
+    top: 186px;
+    position: absolute;
+}
+.cosmo_headline{
+    position: absolute;
+    height: 36px;
+    left: 80px;
+    top: 39px;
+    width: 200px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FEFFBF;
+}
+.cosmo_text{
+    position: absolute;
+    width: 363px;
+    height: 352px;
+    left: 22px;
+    top: 122px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FEFFBF;
+
+}
+.cosmo_text2{
+    width: 363px;
+    height: 352px;
+    left: 20px;
+    top: 412px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FEFFBF;
+}
+.solarsystem{
+    background-image: url(images/SOLARSYSTEM.jpg);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 331px;
+    height: 181px;
+    left: 35px;
+    top: 540px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/*-------------------------EVOLUTION----------------------------*/
+.evolution{
+    background-image: url(images/skeleton-414543_1920_3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    top: 945px;
+    position: absolute;
+}
+.bg_evolution{
+    position: absolute;
+    width: var(--width);
+    height: 772px;
+    left: 0px;
+    top: 317px;
+    background: rgb(184 184 118);
+}
+.evo_headline {
+    position: absolute;
+    height: 36px;
+    left: 92px;
+    top: 30px;
+    width: 200px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+.evo_text {
+    width: var;
+    padding: 20px;
+    height: 172px;
+
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+}
+.evo_text2 {
+    top: 227px;
+    position: absolute;
+    width: 393px;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.mammoth {
+    background-image: url(images/mammoth-1257288_1920.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 339px;
+    height: 242px;
+    left: 27px;
+    top: 772px;
+    background-size: contain;
+    border-radius: 5px;
+    
+
+}
+.footer2 {
+        position: absolute;
+        width: 393px;
+        height: 910px;
+        left: 0px;
+        top: 5452px;
+        background-color: #004DA5;
+}
+/*-------------------------------Biology and medicine------------------------*/
+.bio{
+    background-image: url(images/jesse-orrico-60373.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    top: 2039px;
+    position: absolute;
+
+}
+.bio_headline {
+    position: absolute;
+    width: 370px;
+    height: 60px;
+    left: 31px;
+    top: 18px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 41px;
+    color: #000000;
+
+}
+.bio_text{
+    position: absolute;
+    width: 357px;
+    height: 770px;
+    left: 16px;
+    top: 16px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.bio_text2{
+    position: absolute;
+    width: 357px;
+    height: 770px;
+    left: 22px;
+    top: 672px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+} 
+.heart{
+    background-image: url(images/heart-2607178_1920.jpg);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 339px;
+    height: 227px;
+    left: 25px;
+    top: 420px;
+    border-radius: var(--border-radius);
+    
+
+
+}
+.bg_bio {
+    background-color: #E3C4A9;
+
+
+    position: absolute;
+    width: 393px;
+    height: 867px;
+    left: 0px;
+    top: 367px;
 }
