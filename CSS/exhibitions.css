@@ -2,7 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	background: green;
-	margin-top: 1rem;
+
 }
 
 .exhibition .heading {
@@ -257,6 +257,22 @@ line-height: 22px;
     left: 0px;
     top: 367px;
 }
+/*-------------------Robotics & AI--------------------*/
+.robotics{
+    background-image: url(../Images/jesse-orrico-60373.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    top: 3239px;
+    position: absolute;
+}
+
+
+
+
+
+
 /*---------------------LEARN & TEACH---------------------*/
 .container{
     padding-top: 200px;
