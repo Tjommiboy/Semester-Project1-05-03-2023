@@ -184,6 +184,10 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     font-weight: bold;
     font-size: 27px;
 }
+.grid-even-column{
+display: grid;
+grid-template-columns: 33% 33% 33%;
+}
 /*----------------Aeronautics---------------------------*/
 .aeronautics {
     background-image: url(images/andrew-ruiz-348421.jpg);
@@ -311,9 +315,11 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 .exhibitions{
     display: flex;
     flex-direction: column;
+   
 }
 .item{
     flex: 1;
+    flex-wrap: wrap;
     padding: 14px;
     margin: 0;
     height: 372px;
@@ -645,3 +651,4 @@ line-height: 22px;
     left: 0px;
     top: 367px;
 }
+/*---------------------LEARN & TEACH---------------------*/

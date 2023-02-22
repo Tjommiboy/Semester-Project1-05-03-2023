@@ -1,0 +1,50 @@
+.container{
+
+    max-width: 1440px;
+
+    
+  
+ 
+    
+}
+.for-the-kids{
+margin-bottom: 5px;
+background-color: #C9B3A2;
+max-width: 100%;
+
+}
+.item1 {
+    TOP: 35PX;
+    background-image: url(../Images/learn-2405206_1920.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 153PX;
+    width: 30%;
+    position: relative;
+    left: 20px;
+    border-radius: 5px;
+}
+.item2{
+    max-width: 30%;
+    height: 100px;
+}
+.item3{
+    max-width: 30%;
+    height: 100px;
+}
+
+
+
+
+
+
+@media (min-width:600px){
+        .container{
+        flex-direction: row;
+        justify-content: center;
+
+     
+
+    }
+}
+

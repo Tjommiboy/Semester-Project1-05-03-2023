@@ -1,0 +1,17 @@
+h1 {
+	background: var(--color-golden);
+	padding: 1rem;
+}
+
+h2 {
+	position: relative;
+	left: 20px;
+	color: white;
+	top: 20px;
+}
+
+p {
+}
+
+a {
+}
