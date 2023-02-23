@@ -50,6 +50,7 @@ body {
     font-weight: bold;
     box-shadow: 2px 2px 2px;
     line-height: 56px;
+    list-style: none;
 }
 
 #hamburger{
