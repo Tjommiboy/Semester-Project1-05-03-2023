@@ -12,7 +12,7 @@
 html,body {
     max-width: 100%;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 *{
     padding: 0;
@@ -48,11 +48,10 @@ html,body {
     color: rgb(232, 232, 54);
 }
 .list-wrapper {
-    position: absolute;
-    right: 10px;
+    position: relative;
+    right: -30px;
     background-color: var(--color-golden);
-    TEXT-DECORATION: no;
-    padding:5px;
+    padding: 5px;
     border-radius: var(--border-radius);
     display: none;
     z-index: 10;
@@ -60,6 +59,8 @@ html,body {
     font-weight: bold;
     box-shadow: 2px 2px 2px;
     line-height: 56px;
+    top: 163px;
+    list-style: none;
 }
 
 #hamburger{
@@ -88,36 +89,36 @@ html,body {
 }
 
 .black-rectangle{
-
-    height: 148px;
+    position: relative;
+    height: 140px;
     left: 0px;
-    top: 102px;
+    top: 0px;
     width: var(--width);
     background: linear-gradient(180deg, #000000 76.04%, rgba(0, 0, 0, 0) 95.31%);
     z-index: 1;
-   
 }
 .note {
-    position: absolute;
+    position: relative;
     width: 311px;
     height: 70px;
     left: 47px;
-    top: 121px;
+    top: 26px;
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
     line-height: 17px;
     color: var(--color-white);
     z-index: 2;
+    display: inline-flex;
 }
 .main_hall{
     background-image: url(images/roberto-nickson-396152\ resize.jpg);
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     width: var(--width);
     height: 625px;
     left: 0px;
-    top: 164px;
-    position: absolute;
+    top: -37px;
+    position: relative;
     background-size: contain;
     z-index: 0;
 }
@@ -127,7 +128,7 @@ html,body {
     height: 51px;
     left: 59px;
     top: 75px;
-    position: absolute;
+    position: relative;
   
 
 }
@@ -140,17 +141,18 @@ html,body {
     padding: 10px;
 }
 .note2 {
-    position: absolute;
-    width: 311px;
+    position: relative;
+    width: 322px;
     height: 70px;
-    left: 47px;
+    left: 44px;
     top: 458px;
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
     line-height: 17px;
-    color: var(--color-white); 
+    color: var(--color-white);
     z-index: 2;
+    display: inline-flex;
 }
 /*----------------Special EVENTS-----------------------------*/
 .black_gradient{
@@ -160,8 +162,7 @@ html,body {
     top: 511px;
     position: absolute;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 60.94%);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .bg_special {
@@ -169,34 +170,29 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: var(--width);
     height: 136px;
     left: 0px;
-    top: 553px;
-    position: absolute;
+    top: 424px;
+    position: relative;
 }
 
 .special_events {
     color: var(--color-science);
-    /* text-align: center; */
-    top: 41px;
-    position: absolute;
+    top: 40px;
+    position: relative;
     display: flex;
     justify-content: center;
-    left: 86px;
     font-weight: bold;
     font-size: 27px;
 }
-.grid-even-column{
-display: grid;
-grid-template-columns: 33% 33% 33%;
-}
+
 /*----------------Aeronautics---------------------------*/
 .aeronautics {
     background-image: url(images/andrew-ruiz-348421.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    position: absolute;
-    height: 347.23px;
+    position: relative;
+    height: 326px;
     left: 0px;
-    top: 858px;
+    top: 26px;
     width: 100%;
 
 }
@@ -207,13 +203,16 @@ grid-template-columns: 33% 33% 33%;
     z-index: 11;
     position: relative;
     font-weight: bold;
-    
+    top: 12px;
 }
+    
+
 .aero_description{
     color: var(--color-white);
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 19px;
     position: absolute;
     padding: 10px;
@@ -226,35 +225,39 @@ grid-template-columns: 33% 33% 33%;
     width: 100%;
     height: 112px;
     left: 0px;
-    top: 212px;
-    position: absolute;
+    top: 180px;
+    position: relative;
 }
+
 .screen2{
     background: linear-gradient(173deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.39) 5.31%);
     width: 100%;
     height: 320.23px;
     left: 0px;
-    top: 0;
-    position: absolute;
+    top: -145px;
+    position: relative;
 
 }
 /*-------------------energetica----------------*/
 .energetica{
     background-image: url(images/Screenshot\ 2023-02-09\ at\ 00.12.14.jpg);
     width: 100%;
-    height: 366px;
+    height: 346px;
     left: 0px;
-    top: 1187px;
-    position: absolute;
+    top: 29px;
+    position: relative;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .emne2{ font-size: 27px;
+    font-size: 27px;
     text-align: center;
     color: var(--color-white);
     z-index: 11;
     position: relative;
     font-weight: bold;
+    top: 12px;
+
 
 }
 
@@ -262,47 +265,37 @@ grid-template-columns: 33% 33% 33%;
     color: var(--color-white);
     font-style: normal;
     font-weight: 700;
-    font-size: 13px;
-    line-height: 19px;
+    font-size: 15px;
+    line-height: 20px;
     position: absolute;
     padding: 10px;
-    top: 220px;
+    top: 210px;
     z-index: 10;
+    left: 10px;
 
 }
 
 
 .screen3{
-    position: absolute;
+    position: relative;
     width: var(--width);
     height: 345px;
     left: 0px;
-    top: 0px;
-    background: rgba(0, 0, 0, 0.56);
+    top: -32px;
+    background: rgba(0, 0, 0, 0.66);
 }
 /*----------------NIGHT AT THE MUSEUM----------------*/
 .night_at{
     background-image: url(Images/nightmuseum.jpg);
     width: var(--width);
-    height: 566px;
+    height: 372px;
     left: 0px;
-    top: 1537px;
-    position: absolute;
+    top: 33px;
+    position: relative;
     background-size: contain;
     background-repeat: no-repeat;
 }
-.natm_description{
-    color: var(--color-white);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 19px;
-    position: absolute;
-    padding: 10px;
-    top: 260px;
-    z-index: 10;
 
-}
 .emne3{
     font-size: 27px;
     text-align: center;
@@ -310,79 +303,84 @@ grid-template-columns: 33% 33% 33%;
     z-index: 11;
     position: relative;
     font-weight: bold;
+    top: 12px;
 
 }
-.exhibitions{
-    display: flex;
-    flex-direction: column;
-   
-}
-.item{
-    flex: 1;
-    flex-wrap: wrap;
-    padding: 14px;
-    margin: 0;
-    height: 372px;
-    width: var(--width);
+.natm_description{
+    color: var(--color-white);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    padding: 10px;
+    top: 260px;
+    z-index: 10;
+    width: 360.91px;
+    height: 108.09px;
+    left: 22.06px;
+    top: 257.18px;
 }
 
 /*----------------------FOOTER----------------------------*/
 .footer {
-    position: absolute;
+    position: relative;
     width: var(--width);
     height: 910px;
     left: 0px;
-    top:1913px;
+    top: 34px;
     background-color: #004DA5;
     
 }
 .h2_footer1 {
-    color:var(--color-science);
-    left:20px;
-    top: 70px;
-    position: absolute;
-}
-.h2_footer2 {
-    color:var(--color-science);
-    left:20px;
-    top:168px;
-    position: absolute;
-}
-.hours { 
-    display: flex;
-    width: 241px;
-    height: 120px;
+    color: var(--color-science);
     left: 20px;
-    top: 600px;
-    position: absolute;
+    top: 70px;
+    position: relative;
+}
+.pattaya{
+    display: flex;
+    width: 361px;
+    height: 25px;
+    left: 20px;
+    top: 76px;
+    position: relative;
     color: white;
+}
+
+.h2_footer2 {
+    color: var(--color-science);
+    left: 20px;
+    top: 113px;
+    position: relative;
 }
 .entrance {
     display: flex;
     width: 361px;
     height: 405px;
     left: 20px;
-    top: 203px;
-    position: absolute;
+    top: 123px;
+    position: RELATIVE;
     color: white;
 }
+
 .tours{
     display: flex;
     width: 361px;
-    height: 405px;
+    height: 45px;
     left: 20px;
-    top: 296px;
-    position: absolute;
+    top: -224px;
+    position: RELATIVE;
     color: white;
 
 }
 .guided_tour{
     display: flex;
     width: 361px;
-    height: 405px;
+    height: 55px;
     left: 20px;
-    top: 386px;
-    position: absolute;
+    top: -211px;
+    position: RELATIVE;
     color: white;
 
 }
@@ -391,9 +389,9 @@ grid-template-columns: 33% 33% 33%;
     width: 170px;
     height: 51px;
     left: 203px;
-    top: 497px;
+    top: -93px;
     border: 2px solid #FFFFFF;
-    position: absolute;
+    position: RELATIVE;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -402,34 +400,26 @@ grid-template-columns: 33% 33% 33%;
     line-height: 29px;
     font-style: normal;
     text-decoration: none;
-    color:var(--color-science);
+    color: var(--color-science);
     border-radius: var(--border-radius);
 }
-.pattaya{
+.hours { 
     display: flex;
-    width: 361px;
-    height: 405px;
+    width: 241px;
+    height: 120px;
     left: 20px;
-    top:   108px;
-    position: absolute;
+    top: -70px;
+    position: relative;
+    line-height: 32px;
     color: white;
+    font-weight: 500;
 }
 
 
+
 /*----------------------------Exhibition Spaces----------------------------*/
 /*----------------------------Exhibition Spaces----------------------------*/
 /*----------------------------Exhibition Spaces----------------------------*/
-.cards{
-    display: flex;
-    flex-direction: column;
-}
-.flex2{
-    flex: 1;
-    padding: px;
-    margin: 0;
-    height: 372px;
-    width: var(--width);
-}
 
 .sign{
     background-color:rgba(178, 118, 28, 0.65) ;
@@ -652,3 +642,9 @@ line-height: 22px;
     top: 367px;
 }
 /*---------------------LEARN & TEACH---------------------*/
+
+
+
+
+
+
