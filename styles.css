@@ -5,7 +5,7 @@
     --color-black: #000000;
     --color-science:rgb(232, 232, 54);
     --width:393px;
- 
+    --max-width:100%;
 }
 
 
@@ -13,6 +13,7 @@ html,body {
     max-width: 100%;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+ 
 }
 *{
     padding: 0;
@@ -60,16 +61,21 @@ html,body {
     line-height: 56px;
     top: 163px;
     list-style: none;
+    border:2px solid red;
+
 }
 
 #hamburger{
    display: none;
    color: var(--color-white);
+ 
+
 
 }
 
 #hamburger:checked~.list-wrapper {
     display:block;
+
 
 
 }
@@ -84,7 +90,7 @@ html,body {
     padding-top: 100px;
     background-color: #c1bebe;
     width: 100%;
-    height: 2068px;
+    height: 2065px;
 }
 
 .black-rectangle{
@@ -154,8 +160,8 @@ html,body {
     width: var(--width);
     height: 44px;
     left: 0px;
-    top: 511px;
-    position: absolute;
+    top: 431px;
+    position: relative;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 60.94%);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -181,17 +187,15 @@ html,body {
 
 
 
-
-
 /*----------------Aeronautics---------------------------*/
 .aeronautics {
     background-image: url(images/andrew-ruiz-348421.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     height: 340px;
     left: 0px;
-    top: -5px;
+    top: 39px;
     width: var(--width);
 }
 .emne{
@@ -244,7 +248,8 @@ html,body {
     height: 340px;
     left: 0px;
     position: relative;
-    background-size: contain;
+    background-size: cover;
+    top: 44px;
     background-repeat: no-repeat;
 }
 .emne2{ 
@@ -268,7 +273,7 @@ html,body {
     line-height: 20px;
     position: relative;
     padding: 10px;
-    top: 180px;
+    top: 190px;
     z-index: 10;
     left: 10px;
     width: 384px;
@@ -282,7 +287,7 @@ html,body {
     width: var(--width);
     height: 340px;
     left: 0px;
-    top: -153px;
+    top: -152px;
     background: rgba(0, 0, 0, 0.66);
 }
 /*----------------NIGHT AT THE MUSEUM----------------*/
@@ -291,7 +296,7 @@ html,body {
     width: var(--width);
     height: 340px;
     left: 0px;
-    top: 5px;
+    top: 49px;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -337,10 +342,14 @@ html,body {
     height: 910px;
     max-width: 100%;
     left: 0px;
-    top: -173px;
+    top: -129px;
     background-color: #004DA5;
-    
-}
+    overflow: hidden;
+    }
+
+ .location{
+
+ }   
 .h2_footer1 {
     color: var(--color-science);
     left: 20px;
@@ -361,6 +370,7 @@ html,body {
     color: var(--color-science);
     left: 20px;
     top: 113px;
+    line-height:22px;
     position: relative;
 }
 .entrance {
@@ -371,6 +381,7 @@ html,body {
     top: 123px;
     position: RELATIVE;
     color: white;
+    line-height: 22px;
 }
 
 .tours{
@@ -381,6 +392,7 @@ html,body {
     top: -224px;
     position: RELATIVE;
     color: white;
+    line-height: 22px;
 
 }
 .guided_tour{
@@ -391,6 +403,7 @@ html,body {
     top: -211px;
     position: RELATIVE;
     color: white;
+    line-height: 22px;
 
 }
 .contact_us{
@@ -419,7 +432,7 @@ html,body {
     left: 20px;
     top: -70px;
     position: relative;
-    line-height: 32px;
+    line-height: 22px;
     color: white;
     font-weight: 500;
 }
@@ -653,7 +666,61 @@ line-height: 22px;
 /*---------------------LEARN & TEACH---------------------*/
 
 
+@media (min-width:400px) {
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+}
+.bg_special {
+    display: flex;
+    flex-direction: row;}
+.night_at{
+    top: 39px;
+}
+.energetica{
+    top: 39px;
+}
+
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 359px;
+    top: -816px;
+
+}
+.contact-hours{
+    top: 210px;
+    position: relative;
+}
+.admission {
+    left: -62px;
+    position: relative;
+}
+.location {
+    position: relative;
+    left: -97px;
+    bottom: 47px;
+}
+.admission {
+    left: -73px;
+    bottom: 87px;
+    position: relative;
+}
+.contact-hours {
+    top: 110px;
+    position: relative;
+    right: 25px;
+}
+.contact_us {
+    left:18px;
+}
+.black-rectangle {
+    max-width: 100%;
+}
 
 
 
-
+}
