@@ -49,7 +49,6 @@ html,body {
 }
 .list-wrapper {
     position: relative;
-    right: -30px;
     background-color: var(--color-golden);
     padding: 5px;
     border-radius: var(--border-radius);

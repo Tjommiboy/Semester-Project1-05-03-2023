@@ -27,8 +27,11 @@ element.style {
 margin-bottom: 5px;
 background-color: #C9B3A2;
 max-width: 100%;
+}
 
+.headline-kids{
 
+    
 }
 .item1 {
     TOP: 35PX;
@@ -51,8 +54,10 @@ max-width: 100%;
 }
 
 
-.container2{
-    
+.container{
+    background-color: rgb(34, 84, 127);
+    background-size: cover;
+    height: 40px;
 }
 
 

@@ -37,6 +37,7 @@ body {
 .yellow{
     color: rgb(232, 232, 54);
 }
+
 .list-wrapper {
     position: absolute;
     right: 10px;
@@ -71,10 +72,7 @@ body {
 .flex-container {
     display: flex;
     flex-flow: row wrap;
-    
-
     justify-content: space-around;
-    
     padding: 0;
     margin: 0;
     list-style: none;
