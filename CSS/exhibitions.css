@@ -4,12 +4,11 @@
 	background: green;
 
 }
-
 .exhibition .heading {
-	position: absolute;
+    position: relative;
     height: 36px;
-    left: 80px;
-    top: 39px;
+    left: 86px;
+    top: 229px;
     width: 200px;
     font-style: normal;
     font-weight: 700;

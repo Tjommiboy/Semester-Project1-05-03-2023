@@ -85,7 +85,7 @@ html,body {
     padding-top: 100px;
     background-color: #c1bebe;
     width: 100%;
-    height: 1913px;
+    height: 2068px;
 }
 
 .black-rectangle{
@@ -123,22 +123,18 @@ html,body {
     z-index: 0;
 }
 
-.explorebtn {
-    width: 154px;
-    height: 51px;
-    left: 59px;
-    top: 75px;
-    position: relative;
-  
 
-}
 .explorebutton{
-    color: var(--color-science) ;
+    color: var(--color-science);
     TEXT-DECORATION: none;
     font-weight: bold;
     border: 2px solid var(--color-white);
     border-radius: var(--border-radius);
     padding: 10px;
+    left: 60px;
+    top: 67px;
+    position: relative;
+
 }
 .note2 {
     position: relative;
@@ -184,17 +180,20 @@ html,body {
     font-size: 27px;
 }
 
+
+
+
+
 /*----------------Aeronautics---------------------------*/
 .aeronautics {
     background-image: url(images/andrew-ruiz-348421.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
-    height: 326px;
+    height: 340px;
     left: 0px;
-    top: 26px;
-    width: 100%;
-
+    top: -5px;
+    width: var(--width);
 }
 .emne{
     font-size: 27px;
@@ -216,8 +215,9 @@ html,body {
     line-height: 19px;
     position: absolute;
     padding: 10px;
-    top: 220px;
+    top: 240px;
     z-index: 10;
+    width: 390px;
     
 }
 .screen{
@@ -225,14 +225,14 @@ html,body {
     width: 100%;
     height: 112px;
     left: 0px;
-    top: 180px;
+    top: 195px;
     position: relative;
 }
 
 .screen2{
     background: linear-gradient(173deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.39) 5.31%);
     width: 100%;
-    height: 320.23px;
+    height: 341.23px;
     left: 0px;
     top: -145px;
     position: relative;
@@ -241,15 +241,14 @@ html,body {
 /*-------------------energetica----------------*/
 .energetica{
     background-image: url(images/Screenshot\ 2023-02-09\ at\ 00.12.14.jpg);
-    width: 100%;
-    height: 346px;
+    width: var(--width);
+    height: 340px;
     left: 0px;
-    top: 29px;
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
 }
-.emne2{ font-size: 27px;
+.emne2{ 
     font-size: 27px;
     text-align: center;
     color: var(--color-white);
@@ -257,6 +256,7 @@ html,body {
     position: relative;
     font-weight: bold;
     top: 12px;
+    
 
 
 }
@@ -267,11 +267,13 @@ html,body {
     font-weight: 700;
     font-size: 15px;
     line-height: 20px;
-    position: absolute;
+    position: relative;
     padding: 10px;
-    top: 210px;
+    top: 180px;
     z-index: 10;
     left: 10px;
+    width: 384px;
+    display: flex;
 
 }
 
@@ -279,20 +281,20 @@ html,body {
 .screen3{
     position: relative;
     width: var(--width);
-    height: 345px;
+    height: 340px;
     left: 0px;
-    top: -32px;
+    top: -153px;
     background: rgba(0, 0, 0, 0.66);
 }
 /*----------------NIGHT AT THE MUSEUM----------------*/
-.night_at{
+.night_at {
     background-image: url(Images/nightmuseum.jpg);
     width: var(--width);
-    height: 372px;
+    height: 340px;
     left: 0px;
-    top: 33px;
+    top: 5px;
     position: relative;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -306,7 +308,7 @@ html,body {
     top: 12px;
 
 }
-.natm_description{
+.natm_description {
     color: var(--color-white);
     font-style: normal;
     font-weight: 700;
@@ -319,16 +321,24 @@ html,body {
     width: 360.91px;
     height: 108.09px;
     left: 22.06px;
-    top: 257.18px;
+    top: 226.18px;
+}
+.screen4 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.69) 7.81%);
+    width: 100%;
+    height: 112px;
+    left: 0px;
+    top: 194px;
+    position: relative;
 }
 
 /*----------------------FOOTER----------------------------*/
 .footer {
     position: relative;
-    width: var(--width);
     height: 910px;
+    max-width: 100%;
     left: 0px;
-    top: 34px;
+    top: -173px;
     background-color: #004DA5;
     
 }
