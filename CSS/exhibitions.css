@@ -248,8 +248,6 @@ line-height: 22px;
 }
 .bg_bio {
     background-color: #E3C4A9;
-
-
     position: absolute;
     width: 393px;
     height: 867px;
@@ -258,60 +256,119 @@ line-height: 22px;
 }
 /*-------------------Robotics & AI--------------------*/
 .robotics{
-    background-image: url(../Images/jesse-orrico-60373.jpg);
+    background-image: url(../Images/samuel-zeller-158996_1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 400px;
-    top: 3239px;
-    position: absolute;
+    height: 410px;
+    top: 3242px;
+    position: relative;
+}
+.robo-red{
+    background-color: rgba(250, 103, 93, 0.88);
+    width: 393px;
+    height: 532px;
+    top: 368px;
+    position: relative;
+}
+.robotics_headline {
+    top: 30px;
+    left: 75px;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+
 }
 
-
-
-
-
-
-/*---------------------LEARN & TEACH---------------------*/
-.container{
-    padding-top: 200px;
-    display:flex;
-    flex-direction: column;
-    
+.robo-red p {
+    width: 334px;
+    left: 46px;
+    top: 34px;
+    height: 154px;
+    position: relative;
+    color:white;
+    font-family: inter;
+    font-style: bold;
+    font-size: 18px;
+    font-weight: bold;
 }
-.item-1{
-background-image: url(../Images/);
-background-size:contain ;
-background-repeat: no-repeat;
-height: 100px;
-max-width: 393px;
-margin-bottom: 5px;
-background-color: #de904d;
-}
-.bilde-inni {
-    background-image: url(images/nightmuseum.jpg);
+
+.rob-picture {
+    background-image: url(../Images/adam-lukomski-ja9VHwgcABo-unsplash.jpg);
     background-size: contain;
+    position: relative;
+    width: 206px;
+    height: 274px;
+    left: 98px;
+    top: 60px;
+    border-radius: 5px;
+}
+
+/*-----------------------------Ecology---------------------------*/
+
+.ecology{
+    background-image: url(../images/ivan-bandura-qvrjdtp8T3E-unsplash.jpg);
     background-repeat: no-repeat;
-    height: 70px;
-    width: 470px;
+    background-size: contain;
+    width: 100%;
+    height: 420px;
+    top: 3778px;
+    position: relative;
+}
+
+.ecology_headline {
+    top: 40px;
+    left: 120px;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color:aliceblue
+}
+.ecology-bg {
+    background-color: #0EA671;
+    top: 253px;
+    Width: 393px;
+    Height: 639px;
+    position: relative;
+
+}
+
+.ecology-bg p{
+    width: 334px;
+    left: 46px;
+    top: 34px;
+    height: 154px;
+    position: relative;
+    color:white;
+    font-family: inter;
+    font-style: bold;
+    font-size: 18px;
+    font-weight: bold;
+}
+.eco-picture{
+    background-image: url(../Images/marcin-jozwiak-uKvPDQop-JA-unsplash.jpg);
+    height: 184px;
+    width: 340px;
+    position: relative; 
+    top: 30px;
     left: 30px;
+    border-radius: 5px;
 }
-.item-2{
-    background-image: url(images/heart-2607178_1920.jpg);
-    background-size:contain ;
-    background-repeat: no-repeat;
-    height:    100px;
-    margin-bottom: 5px;
-    width: 393px;
-    
-    background-color: #de904d;
-}
-.item-3{
-    background-image: url(images/heart-2607178_1920.jpg);
-    background-size:contain ;
-    background-repeat: no-repeat;
-    height: 100px;
-    width: 393px;
-    
-    background-color: #de904d;
+.eco-paragraph{
+    width: 334px;
+    left: 46px;
+    top: 34px;
+    height: 154px;
+    position: relative;
+    color:white;
+    font-family: inter;
+    font-style: bold;
+    font-size: 18px;
+    font-weight: bold;
 }

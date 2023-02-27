@@ -84,3 +84,107 @@ background-color: #de904d;
 height: 40px;
 width: 40px  ;
   }
+
+
+/*--------------------FOOTER--------------------*/
+
+.footer {
+    position: relative;
+    height: 910px;
+    max-width: 100%;
+    left: 0px;
+    top: -129px;
+    background-color: #004DA5;
+    overflow: hidden;
+    }
+
+ .location{
+
+ }   
+.h2_footer1 {
+    color: var(--color-science);
+    left: 20px;
+    top: 70px;
+    position: relative;
+}
+.pattaya{
+    display: flex;
+    width: 361px;
+    height: 25px;
+    left: 20px;
+    top: 76px;
+    position: relative;
+    color: white;
+}
+
+.h2_footer2 {
+    color: var(--color-science);
+    left: 20px;
+    top: 113px;
+    line-height:22px;
+    position: relative;
+}
+.entrance {
+    display: flex;
+    width: 361px;
+    height: 405px;
+    left: 20px;
+    top: 123px;
+    position: RELATIVE;
+    color: white;
+    line-height: 22px;
+}
+
+.tours{
+    display: flex;
+    width: 361px;
+    height: 45px;
+    left: 20px;
+    top: -224px;
+    position: RELATIVE;
+    color: white;
+    line-height: 22px;
+
+}
+.guided_tour{
+    display: flex;
+    width: 361px;
+    height: 55px;
+    left: 20px;
+    top: -211px;
+    position: RELATIVE;
+    color: white;
+    line-height: 22px;
+
+}
+.contact_us{
+    box-sizing: border-box;
+    width: 170px;
+    height: 51px;
+    left: 203px;
+    top: -93px;
+    border: 2px solid #FFFFFF;
+    position: RELATIVE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    font-style: normal;
+    text-decoration: none;
+    color: var(--color-science);
+    border-radius: var(--border-radius);
+}
+.hours { 
+    display: flex;
+    width: 241px;
+    height: 120px;
+    left: 20px;
+    top: -70px;
+    position: relative;
+    line-height: 22px;
+    color: white;
+    font-weight: 500;
+}
+

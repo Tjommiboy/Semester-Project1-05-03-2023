@@ -61,7 +61,7 @@ html,body {
     line-height: 56px;
     top: 163px;
     list-style: none;
-    border:2px solid red;
+    border:2px solid rgba(0, 89, 255, 0.375);
 
 }
 
@@ -443,6 +443,43 @@ html,body {
 /*----------------------------Exhibition Spaces----------------------------*/
 /*----------------------------Exhibition Spaces----------------------------*/
 
+.exhibition {
+	display: flex;
+	flex-direction: column;
+
+
+}
+.exhibition .heading {
+    position: relative;
+    height: 36px;
+    left: 86px;
+    top: 130px;
+    width: 200px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FEFFBF;
+}
+
+.exhibition .copy {
+	padding: 1rem;
+}
+
+.exhibition .image {
+	padding: 1rem;
+}
+
+@media (min-width: 400px) {
+	.exhibition {
+		flex-direction: row;
+		background: red;
+	}
+}
+
+
+
+
 .sign{
     background-color:rgba(178, 118, 28, 0.65) ;
     width: var(--width);
@@ -464,8 +501,8 @@ html,body {
     align-items: center;
     }
 
-.cosmology{
-    background-image: url(images/max-mckinnon-c9OCWLka764-unsplash.jpg);
+.cosmology-bg-img {
+    background-image: url(../Images/max-mckinnon-c9OCWLka764-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: var(--width);
@@ -478,7 +515,7 @@ html,body {
     position: absolute;
     height: 36px;
     left: 80px;
-    top: 39px;
+    top: 220px;
     width: 200px;
     font-style: normal;
     font-weight: 700;
@@ -491,7 +528,7 @@ html,body {
     width: 363px;
     height: 352px;
     left: 22px;
-    top: 122px;
+	top: 292px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -503,7 +540,8 @@ html,body {
     width: 363px;
     height: 352px;
     left: 20px;
-    top: 412px;
+
+    top: 584px;
     position: absolute;
     font-weight: 700;
     font-size: 18px;
@@ -511,20 +549,20 @@ html,body {
     color: #FEFFBF;
 }
 .solarsystem{
-    background-image: url(images/SOLARSYSTEM.jpg);
+    background-image: url(../Images/SOLARSYSTEM.jpg);
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
     width: 331px;
     height: 181px;
     left: 35px;
-    top: 540px;
+    top: 728px;
     border-radius: 5px 5px 5px 5px;
 }
 
 /*-------------------------EVOLUTION----------------------------*/
 .evolution{
-    background-image: url(images/skeleton-414543_1920_3.jpg);
+    background-image: url(../Images/skeleton-414543_1920_3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -572,7 +610,7 @@ line-height: 22px;
 }
 
 .mammoth {
-    background-image: url(images/mammoth-1257288_1920.jpg);
+    background-image: url(../Images/mammoth-1257288_1920.jpg);
     background-repeat: no-repeat;
     position: absolute;
     width: 339px;
@@ -594,7 +632,7 @@ line-height: 22px;
 }
 /*-------------------------------Biology and medicine------------------------*/
 .bio{
-    background-image: url(images/jesse-orrico-60373.jpg);
+    background-image: url(../Images/jesse-orrico-60373.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -640,7 +678,7 @@ line-height: 22px;
     color: #000000;
 } 
 .heart{
-    background-image: url(images/heart-2607178_1920.jpg);
+    background-image: url(../Images/heart-2607178_1920.jpg);
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
@@ -655,16 +693,344 @@ line-height: 22px;
 }
 .bg_bio {
     background-color: #E3C4A9;
-
-
     position: absolute;
     width: 393px;
     height: 867px;
     left: 0px;
     top: 367px;
 }
+/*-------------------Robotics & AI--------------------*/
+.robotics{
+    background-image: url(../Images/samuel-zeller-158996_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 410px;
+    top: 3142px;;
+    position: relative;
+}
+.robo-red{
+    background-color: rgba(250, 103, 93, 0.88);
+    width: 393px;
+    height: 532px;
+    top: 368px;
+    position: relative;
+}
+.robotics_headline {
+    top: 30px;
+    left: 75px;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+
+}
+
+.robo-red p {
+    width: 334px;
+    left: 46px;
+    top: 34px;
+    height: 154px;
+    position: relative;
+    color:white;
+    font-family: inter;
+    font-style: bold;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.rob-picture {
+    background-image: url(../Images/adam-lukomski-ja9VHwgcABo-unsplash.jpg);
+    background-size: contain;
+    position: relative;
+    width: 206px;
+    height: 274px;
+    left: 98px;
+    top: 60px;
+    border-radius: 5px;
+}
+
+/*-----------------------------Ecology---------------------------*/
+
+.ecology{
+    background-image: url(../images/ivan-bandura-qvrjdtp8T3E-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 420px;
+    top: 3678px;
+    position: relative;
+}
+
+.ecology_headline {
+    top: 40px;
+    left: 120px;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color:aliceblue
+}
+.ecology-bg {
+    background-color: #0EA671;
+    top: 253px;
+    Width: 393px;
+    Height: 639px;
+    position: relative;
+
+}
+
+.ecology-bg p{
+    width: 334px;
+    left: 46px;
+    top: 34px;
+    height: 154px;
+    position: relative;
+    color:white;
+    font-family: inter;
+    font-style: bold;
+    font-size: 18px;
+    font-weight: bold;
+}
+.eco-picture{
+    background-image: url(../Images/marcin-jozwiak-uKvPDQop-JA-unsplash.jpg);
+    height: 184px;
+    width: 340px;
+    position: relative; 
+    top: 30px;
+    left: 30px;
+    border-radius: 5px;
+}
+.eco-paragraph{
+    width: 334px;
+    left: 46px;
+    top: 34px;
+    height: 154px;
+    position: relative;
+    color:white;
+    font-family: inter;
+    font-style: bold;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer-exhibitions{
+    position: relative;
+    height: 910px;
+    max-width: 100%;
+    left: 0px;
+    top: 3097px;
+    background-color: #004DA5;
+    overflow: hidden;
+}
+/*---------------------LEARN & TEACH---------------------*/
+/*---------------------LEARN & TEACH---------------------*/
+/*---------------------LEARN & TEACH---------------------*/
 /*---------------------LEARN & TEACH---------------------*/
 
+
+.for-the-kids{
+    margin-bottom: 5px;
+    background-color: #C9B3A2;
+    max-width: 100%;
+    height: 1160px;
+    top: 186px;
+    position: relative;
+}
+
+.headline-kids{    font-size: 20px;
+    font-size: 20px;
+    top: 20px;
+    position: relative;
+    left: 20px;
+    color: white;
+}
+
+
+
+.item1 {
+    TOP: 36PX;
+    background-image: url(../Images/learn-2405206_1920.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 163PX;
+    width: 335px;
+    position: relative;
+    left: 20px;
+    border-radius: 5px;
+}
+.item2{
+    max-width: 85%;
+    height: 100px;
+    position: relative;
+    color: white;
+    top: 54px;
+    left: 26px;
+    font-weight: bold;
+}
+.mammoth{
+    TOP: 104PX;
+    background-image: url(Images/mammoth-1257288_1920_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 213PX;
+    width: 359px;
+    position: relative;
+    left: 31px;
+    border-radius: 5px;
+}
+
+
+.item3{
+    max-width: 85%;
+    height: 100px;
+    position: relative;
+    color: white;
+    top: 118px;
+    left: 26px;
+    font-weight: bold;
+}
+
+
+.container{
+    background-color: rgb(34, 84, 127);
+    background-size: cover;
+    height: 40px;
+}
+
+.youngstars{
+    background-color: #0EA671;
+    Width: 359px;
+    height: 66px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    top: 162px;
+    position: relative;
+    left: 18px;
+}
+.text1{
+    max-width: 85%;
+    height: 100px;
+    position: relative;
+    color: white;
+    top: 200px;
+    left: 26px;
+    font-weight: bold;
+}
+.the-holiday-club{
+    background-color: #0EA671;
+    Width: 359px;
+    height: 66px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    top: 284px;
+    position: relative;
+    left: 20px;
+
+}
+
+
+/*----------------------------FOR THE TEACHERS----------------------------*/
+
+
+.for-the-teachers{
+    background-color: #E6D6B5;
+    Width: 393px;
+    Height: 913px;
+    Top: 186px;
+    position: relative;
+    color:#4E4E4E;
+    
+}
+.headline-teachers {
+    position: relative;
+    left: 29px;
+
+}
+.community{
+    max-width: 85%;
+    height: 100px;
+    position: relative;
+    top: 25px;
+    left: 26px;
+    font-weight: bold;
+}
+
+.lab{
+    background-image: url(images/lab-512503_1920.jpg);
+    Width: 383px;
+    height: 344px;
+    Left: 62px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.microscope{
+    background-image: url(images/people-219985_1280.jpg);
+    background-size: contain;
+    Width:348px;
+    Height:232px;
+    border-radius: 5px;
+    position: relative;
+    left: 20px;
+
+}
+
+
+
+
+/*------------------------------Media Query-------------------------------*/
+
+/*------------------------------Media Query-------------------------------*/
+
+/*------------------------------Media Query-------------------------------*/
+@media (min-width:600px){
+        .container{
+        flex-direction: row;
+        justify-content: center;
+
+     
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------MEDIA QUERYS----------------------*/
 
 @media (min-width:400px) {
 .row{
@@ -674,7 +1040,9 @@ line-height: 22px;
 }
 .bg_special {
     display: flex;
-    flex-direction: row;}
+    flex-direction: row;
+    width: 100%;
+}
 .night_at{
     top: 39px;
 }
@@ -721,6 +1089,17 @@ line-height: 22px;
     max-width: 100%;
 }
 
+.main_hall{
+    width:100%;
+ 
 
+
+}
+.black-rectangle{
+    width: 100%;
+}
+.black_gradient{
+    width: 100%;
+}
 
 }
