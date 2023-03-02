@@ -33,6 +33,7 @@ html,body {
     align-items: center;
     padding: 30px;
     z-index: 999;
+    top:0px;
 }
 
 #logo{
@@ -837,7 +838,7 @@ line-height: 22px;
     background-color: #C9B3A2;
     max-width: 100%;
     height: 1160px;
-    top: 186px;
+    top: 166px;
     position: relative;
 }
 
@@ -945,7 +946,7 @@ line-height: 22px;
     background-color: #E6D6B5;
     Width: 393px;
     Height: 913px;
-    Top: 186px;
+    Top: 166px;
     position: relative;
     color:#4E4E4E;
     
@@ -1014,7 +1015,7 @@ line-height: 22px;
     width: 393px;
     height: 669px;
     position: relative;
-    top: 191px;
+    top: 171px;
 }
 .research-headline{
     left: 29px;
@@ -1070,7 +1071,7 @@ line-height: 22px;
     height: 910px;
     max-width: 100%;
     left: 0px;
-    top: 195px;
+    top: 175px;
     background-color: #004DA5;
     overflow: hidden;
     
@@ -1281,7 +1282,65 @@ line-height: 22px;
     position: relative;
     top: 201px;
     background-color: blue;
+    height: 800px;
 }
+ /*---------------------------Contact Us-------------------------*/
+
+ .footer-Contact-Us{
+    position: relative;
+    top: 181px;
+    background-color: blue;
+    height: 800px;
+}
+.formfram{
+    background-color: #879FF6;
+    top: 176px;
+    position: relative;
+    height: 510px;
+}
+.form{
+    position: relative;
+    top: 34px;
+    margin: 10px;
+    height: 647px;
+    width: 135px;
+    border-radius: 5px;
+    left: 111px;
+    top: 19px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+.form__input{
+    display :block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
