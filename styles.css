@@ -600,7 +600,7 @@ font-size: 18px;
 line-height: 22px;
 }
 .evo_text2 {
-    top: 227px;
+    top: 466px;
     position: absolute;
     width: 393px;
     padding: 20px;
@@ -609,15 +609,15 @@ line-height: 22px;
     line-height: 22px;
 }
 
-.mammoth {
-    background-image: url(../Images/mammoth-1257288_1920.jpg);
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 339px;
-    height: 242px;
-    left: 27px;
-    top: 772px;
+.mammoth{
+    TOP: 547PX;
+    background-image: url(Images/mammoth-1257288_1920_1.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
+    height: 213PX;
+    width: 359px;
+    position: relative;
+    left: 31px;
     border-radius: 5px;
     
 
@@ -910,7 +910,7 @@ line-height: 22px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    top: 162px;
+    top: 185px;
     position: relative;
     left: 18px;
 }
@@ -932,10 +932,9 @@ line-height: 22px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    top: 284px;
+    top: 250px;
     position: relative;
     left: 20px;
-
 }
 
 
@@ -954,24 +953,28 @@ line-height: 22px;
 .headline-teachers {
     position: relative;
     left: 29px;
+    top: 20px;
 
 }
 .community{
     max-width: 85%;
     height: 100px;
     position: relative;
-    top: 25px;
+    top: 125px;
     left: 26px;
     font-weight: bold;
+    z-index: 2;
 }
 
 .lab{
     background-image: url(images/lab-512503_1920.jpg);
     Width: 383px;
     height: 344px;
-    Left: 62px;
+    Left: -18px;
+    top: 107px;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .microscope{
     background-image: url(images/people-219985_1280.jpg);
@@ -981,23 +984,314 @@ line-height: 22px;
     border-radius: 5px;
     position: relative;
     left: 20px;
+}
 
+.please{ max-width: 85%;
+    height: 100px;
+    position: relative;
+    top: 25px;
+    left: 26px;
+    font-weight: bold;
+}
+
+.contact-teacher{
+    background-color: #0EA671;
+    Width: 359px;
+    height: 66px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    top: 14px;
+    position: relative;
+    left: 20px;
+}
+
+/*------------------------------Researchers--------------------------*/
+.researchers{
+    background-color: #98CFDC;
+    width: 393px;
+    height: 669px;
+    position: relative;
+    top: 191px;
+}
+.research-headline{
+    left: 29px;
+    position: relative;
+    top: 20px;
+
+}
+.research-question{
+    max-width: 85%;
+    height: 100px;
+    position: relative;
+    top: 55px;
+    left: 28px;
+    font-weight: bold;
+    z-index: 2;
+}
+.research-bilde{
+    background-image: url(IMAGES/scientific-2040795_1280.jpg);
+    position: relative;
+    Width: 366px;
+    Height:243px;
+    Left:14px;
+    border-radius: 5px;
+    background-size: contain;
+}
+
+.research-paragraph{
+    max-width: 85%;
+    height: 100px;
+    position: relative;
+    top: 5px;
+    left: 28px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.contact-researcher{
+    background-color: #0EA671;
+    Width: 359px;
+    height: 66px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    top: 34px;
+    position: relative;
+    left: 20px;
+}
+
+.footer-learn{
+    position: relative;
+    height: 910px;
+    max-width: 100%;
+    left: 0px;
+    top: 195px;
+    background-color: #004DA5;
+    overflow: hidden;
+    
+}
+/*----------------------------GET INVOLVED-------------------------------*/
+.support{
+    background-color: #879FF6;
+    width: 100%;
+    height: 732px;
+    position: relative;
+    top: 186px;
+}
+.support-h2{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    color: white;
+}
+.support-text{
+    max-width: 85%;
+    height: 100px;
+    position: relative;
+    top: 55px;
+    left: 26px;
+    font-weight: bold;
+    color: white;
+
+    
+}
+
+.support-picture{ 
+    background-image: url(images/buddies.jpg);
+    Width:206px;
+    Height:266px;
+    background-size: contain;
+    border-radius: 5px;
+    left: 90px;
+    top: 60px;
+    position: relative;
+
+  
+}
+
+.support-text2{
+    max-width: 85%;
+    height: 100px;
+    position: relative;
+    top: 75px;
+    left: 26px;
+    font-weight: bold;
+    color: white;
+}
+.support-contact{
+    box-sizing: border-box;
+    width: 170px;
+    height: 51px;
+    left: 203px;
+    top: 148px;
+    border: 2px solid #FFFFFF;
+    position: RELATIVE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    font-style: normal;
+    text-decoration: none;
+    color: var(--color-science);
+    border-radius: var(--border-radius);
+
+}
+/*------------------------Volunteer------------------------------------*/
+.volunteer{
+    background-color: #879FF6;
+    width: 100%;
+    height: 823px;
+    position: relative;
+    top: 191px;
+
+}
+.volunteer-h2{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    color: white;
+
+}
+.volunteer-text{
+    max-width: 85%;
+    height: 100px;
+    position: relative;
+    top: 55px;
+    left: 26px;
+    font-weight: bold;
+    color: white;
+
+}
+.volunteer-picture{
+    background-image: url(images/austin-kehmeier-lyiKExA4zQA-unsplash.jpg);
+    position: relative;
+    width: 247px;
+    height: 309px;
+    left: 70px;
+    top:154px;
+    background-size: contain;
+    border-radius: 5px;
+}
+.volunteer-text2{
+    max-width: 85%;
+    height: 100px;
+    position: relative;
+    top: 185px;
+    left: 26px;
+    font-weight: bold;
+    color: white;
+}
+.volunteer-contact{
+    box-sizing: border-box;
+    width: 170px;
+    height: 51px;
+    left: 203px;
+    top: 188px;
+    border: 2px solid #FFFFFF;
+    position: RELATIVE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    font-style: normal;
+    text-decoration: none;
+    color: var(--color-science);
+    border-radius: var(--border-radius);
+
+}
+/*---------------------------Internship------------------------------*/
+
+.internship{
+    background-color: #879FF6;
+    width: 100%;
+    height: 723px;
+    position: relative;
+    top: 196px;
+}
+.internship-h2{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    color: white;
+
+}
+.internship-text{
+    max-width: 85%;
+    height: 100px;
+    position: relative;
+    top: 55px;
+    left: 26px;
+    font-weight: bold;
+    color: white;
+
+}
+.internship-picture{
+    background-image: url(images/1_EZn2o1HupExZVxDouzvWjQ.webp);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 320px;
+    height: 209px;
+    left: 40px;
+    top: 106px;
+    background-size: contain;
+    border-radius: 5px;
+
+}
+
+.internship-text2{
+    max-width: 85%;
+    height: 100px;
+    position: relative;
+    top: 148px;
+    left: 26px;
+    font-weight: bold;
+    color: white;
+}
+
+.internship-contact{
+    box-sizing: border-box;
+    width: 170px;
+    height: 51px;
+    left: 203px;
+    top: 188px;
+    border: 2px solid #FFFFFF;
+    position: RELATIVE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    font-style: normal;
+    text-decoration: none;
+    color: var(--color-science);
+    border-radius: var(--border-radius);
+
+}
+.footer-get-involved{
+    position: relative;
+    top: 201px;
+    background-color: blue;
 }
 
 
 
-
 /*------------------------------Media Query-------------------------------*/
-
 /*------------------------------Media Query-------------------------------*/
-
 /*------------------------------Media Query-------------------------------*/
 @media (min-width:600px){
         .container{
         flex-direction: row;
         justify-content: center;
-
-     
 
     }
 }
