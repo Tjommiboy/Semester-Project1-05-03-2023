@@ -578,16 +578,18 @@ top: 40px;
     z-index: 1;
 }
 .evo_text {
-    width: var;
+    width: 393px;
     padding: 20px;
-    height: 172px;
+    height: 160px;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
+    top: -28px;
+    position: relative;
 }
 .evo_text2 {
-    top: 466px;
-    position: absolute;
+    top: 52px;
+    position: relative;
     width: 393px;
     padding: 20px;
     font-weight: 700;
@@ -596,12 +598,12 @@ top: 40px;
 }
 
 .mammoth {
-    top: 554px;
+    TOP: 268PX;
     background-image: url(Images/mammoth-1257288_1920_1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 213PX;
-    width: 323px;
+    width: 359px;
     position: relative;
     left: 31px;
     border-radius: 5px;
@@ -674,7 +676,7 @@ top: 40px;
     width: 339px;
     height: 227px;
     left: 25px;
-    top: -154px;
+    top: -744px;
     border-radius: var(--border-radius);
 
 
@@ -689,6 +691,10 @@ top: 40px;
 }
 /*-------------------Robotics & AI--------------------*/
 .robotics{
+
+}
+
+.robo-picture{
     background-image: url(../Images/samuel-zeller-158996_1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -701,7 +707,7 @@ top: 40px;
     background-color: rgba(250, 103, 93, 0.88);
     width: 393px;
     height: 532px;
-    top: 368px;
+    top: -672px;
     position: relative;
 }
 .robotics_headline {
@@ -736,22 +742,29 @@ top: 40px;
     width: 206px;
     height: 274px;
     left: 98px;
-    top: 60px;
+    top: -980px;
     border-radius: 5px;
 }
 
 /*-----------------------------Ecology---------------------------*/
 
 .ecology{
+   
+    width: 100%;
+    height: 420px;
+    top: -940px;
+    position: relative;
+}
+.forrest{
     background-image: url(../images/ivan-bandura-qvrjdtp8T3E-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
-    height: 420px;
-    top: -134px;
+    height: 314px;
+    top: 0;
     position: relative;
+    
 }
-
 .ecology_headline {
     top: 40px;
     left: 120px;
@@ -765,7 +778,7 @@ top: 40px;
 }
 .ecology-bg {
     background-color: #0EA671;
-    top: 253px;
+    top: -20px;
     Width: 393px;
     Height: 639px;
     position: relative;
@@ -794,9 +807,9 @@ top: 40px;
     border-radius: 5px;
 }
 .eco-paragraph{
-    width: 334px;
-    left: 46px;
-    top: 34px;
+    width: 346px;
+    left: 24px;
+    top: -260px;
     height: 154px;
     position: relative;
     color:white;
@@ -1383,9 +1396,8 @@ top: 40px;
         top:0px;
         background-color: transparent;
         border: 2px solid #DE904D;
-    
-        
     }
+
     li{
         width: 191px;
         height: 76px;
@@ -1398,7 +1410,7 @@ top: 40px;
         text-decoration: none;
     }
 
-}
+ }
 /*----------------------------------------------------------------*/
 
 @media (min-width:400px) {
@@ -1435,12 +1447,12 @@ top: 40px;
      
     }
 .footer-exhibitions{
-        display: grid;
-        grid-template-columns:1fr 1fr 1fr;
-        grid-gap: 10px;
-        justify-items: center;
-        height: 359px;
-        top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    height: 359px;
+    top: 19px;
 }
    
 .contact-hours{
@@ -1489,7 +1501,7 @@ top: 40px;
 
 .sign{
    display:flex;
-   flex-direction:column;
+   justify-content: center;
 
 }
 /*---------------------------exhibitionquary---------------*/
@@ -1498,7 +1510,7 @@ top: 40px;
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     width:100%;
     height: 344px;
     top: 86px;
@@ -1519,10 +1531,10 @@ top: 40px;
     right: 33px;
 }
 .cosmo_text2 {
-    width: 363px;
+    width: 463px;
     height: 352px;
-    left: -510px;
-    top: 54px;
+    left: 80px;
+    top: 44px;
     position: relative;
     font-weight: 700;
     font-size: 18px;
@@ -1534,18 +1546,18 @@ top: 40px;
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 471px;
-    height: 241px;
-    left: 1094px;
-    top: -300px;
+    width: 351px;
+    height: 311px;
+    left: 90px;
+    top: -230px;
     border-radius: 5px 5px 5px 5px;
 }
 .cosmo_text {
     position: relative;
-    width: 363px;
+    width: 469px;
     height: 352px;
-    left: -470px;
-    top: 91px;
+    left: 0;
+    top: 42px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -1572,7 +1584,8 @@ top: 40px;
 .evo_text{
     top: 52px;
     position: relative;
-    width:540px;
+    width: 540px;
+    right: 10px;
 
 }
 .evo_text2{
@@ -1581,6 +1594,7 @@ top: 40px;
     top: 25px;
     position: relative;
     width: 540px;
+    right: 10px;
 }
 .evo_headline{
     z-index: 10;
@@ -1615,6 +1629,8 @@ top: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
+    
+    
 }
 .b-and-m {
     top: 0px;
@@ -1638,20 +1654,13 @@ top: 40px;
     background-repeat: no-repeat;
     width: 100%;
     height: 391px;
-    top: 421px;
+    top: -446px;
     position: relative;
     left: 60px;
     z-index: 1;
 
 }
-.bg_bio {
-    background-color: #E3C4A9;
-    position: absolute;
-    width: 100%;
-    height: 391px;
-    left: 0;
-    top: 481px;
-}
+
 
 .bio_text {
     position: relative;
@@ -1683,16 +1692,123 @@ top: 40px;
     background-size: contain;
     background-repeat: no-repeat;
     width: 339px;
-    height: 247px;
-    left: 638px;
-    top: -142px;
+    height: 227px;
+    left: 157px;
+    top: -148px;
     border-radius: var(--border-radius);
 }
+/*--------------------------------ROBOTICSQUERY--------------------*/
 
+.robotics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(250, 103, 93, 0.88);
+    width: 100%;
+    height: 439px;
+    top: 5px;
+    position: relative;
+    top: -441px;
+}
 
+.robo-picture{
+    background-image: url(../Images/samuel-zeller-158996_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 439px;
+    top: 0px;
+    left: 60px;
+    position: relative;
+}
+.robotics_headline {
+    top: 30px;
+    left: 95px;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+}
+.robo-red {
+    background-color:transparent;
+    width: 393px;
+    height: 532px;
+    top: 2px;
+    position: relative;
+}
+.rob-picture {
+    background-image: url(../Images/adam-lukomski-ja9VHwgcABo-unsplash.jpg);
+    background-size: contain;
+    position: relative;
+    width: 202px;
+    height: 270px;
+    left: 133px;
+    top: 52px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
 
+/*----------------------------------ECOLOGY QUERY------------------*/
 
+.ecology{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    background-color: #0EA671;
+    top: -436px;
+    Width: 100%;
+    Height: 314px;
+    position: relative;
 
 }
+.forrest{
+    background-image: url(../images/ivan-bandura-qvrjdtp8T3E-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 314px;
+    top: 0;
+    position: relative;
+    left: 60px;
+}
+.ecology_headline {
+    top: 40px;
+    left: 139px;
+}
+.ecology-bg {
+    background-color: transparent;
+    top: 0px;
+    Width: 393px;
+    Height: 639px;
+    position: relative;
+    left: 39px;
+}
+.ecology-bg p {
+    width: 436px;
+    left: 0px;
+    top: 10px;
+  
+}
+.eco-picture {
+    background-image: url(../Images/marcin-jozwiak-uKvPDQop-JA-unsplash.jpg);
+    height: 154px;
+    width: 430px;
+    position: relative;
+    top: -22px;
+    left: 0px;
+    border-radius: 5px;
+}
+
+.eco-paragraph{
+    width: 436px;
+    left: 0px;
+    top: 10px;
+
+}
+
+}
+
+
 
 
