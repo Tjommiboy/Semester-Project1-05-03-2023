@@ -131,7 +131,7 @@ html,body {
 
 
 .explorebutton{
-    color: var(--color-science);
+    color:#DE904D;
     TEXT-DECORATION: none;
     font-weight: bold;
     border: 2px solid var(--color-white);
@@ -177,7 +177,7 @@ html,body {
 }
 
 .special_events {
-    color: var(--color-science);
+    color: #DE904D;
     top: 40px;
     position: relative;
     display: flex;
@@ -348,11 +348,11 @@ html,body {
     overflow: hidden;
     }
 
- .location{
 
- }   
+
+
 .h2_footer1 {
-    color: var(--color-science);
+    color:white;
     left: 20px;
     top: 70px;
     position: relative;
@@ -368,7 +368,7 @@ html,body {
 }
 
 .h2_footer2 {
-    color: var(--color-science);
+    color: white;
     left: 20px;
     top: 113px;
     line-height:22px;
@@ -444,46 +444,33 @@ html,body {
 /*----------------------------Exhibition Spaces----------------------------*/
 /*----------------------------Exhibition Spaces----------------------------*/
 
-.exhibition {
-	display: flex;
-	flex-direction: column;
 
 
-}
-.exhibition .heading {
+.exhibition{
+    background-image: url(../Images/max-mckinnon-c9OCWLka764-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: var(--width);
+    height: 754px;
+    top: 86px;
     position: relative;
-    height: 36px;
-    left: 86px;
-    top: 130px;
-    width: 200px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    color: #FEFFBF;
 }
-
-.exhibition .copy {
-	padding: 1rem;
+.heading{
+    Font-family: Inter;
+Font-style: Bold;
+Font-size: 30px;
+Line-height: 36px;
+Line-height: 100%;
+color: #FEFFBF;
+font-weight: bold;
+position: relative;
+display: flex;
+justify-content: center;
+top: 40px;
 }
-
-.exhibition .image {
-	padding: 1rem;
-}
-
-@media (min-width: 400px) {
-	.exhibition {
-		flex-direction: row;
-		background: red;
-	}
-}
-
-
-
-
 .sign{
     background-color:rgba(178, 118, 28, 0.65) ;
-    width: var(--width);
+    width:100%;
     height: 74px;
     top: 107px;
     position: absolute;
@@ -502,18 +489,9 @@ html,body {
     align-items: center;
     }
 
-.cosmology-bg-img {
-    background-image: url(../Images/max-mckinnon-c9OCWLka764-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: var(--width);
-    height: 754px;
-    
-    top: 186px;
-    position: absolute;
-}
+
 .cosmo_headline{
-    position: absolute;
+    position: relative;
     height: 36px;
     left: 80px;
     top: 220px;
@@ -528,8 +506,8 @@ html,body {
     position: absolute;
     width: 363px;
     height: 352px;
-    left: 22px;
-	top: 292px;
+    left: 20px;
+    top: 121px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -541,9 +519,8 @@ html,body {
     width: 363px;
     height: 352px;
     left: 20px;
-
-    top: 584px;
-    position: absolute;
+    top: 338px;
+    position: relative;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
@@ -557,19 +534,27 @@ html,body {
     width: 331px;
     height: 181px;
     left: 35px;
-    top: 728px;
+    top: 500px;
     border-radius: 5px 5px 5px 5px;
 }
 
 /*-------------------------EVOLUTION----------------------------*/
 .evolution{
-    background-image: url(../Images/skeleton-414543_1920_3.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+
     width: 100%;
     height: 400px;
     top: 945px;
     position: absolute;
+}
+.bg-evo{
+    background-image: url(../Images/skeleton-414543_1920_3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 384px;
+    top: 0px;
+    position: relative;
+    left:0px;
 }
 .bg_evolution{
     position: absolute;
@@ -590,15 +575,15 @@ html,body {
     font-size: 30px;
     line-height: 36px;
     color: #000000;
+    z-index: 1;
 }
 .evo_text {
     width: var;
     padding: 20px;
     height: 172px;
-
-font-weight: 700;
-font-size: 18px;
-line-height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
 }
 .evo_text2 {
     top: 466px;
@@ -610,17 +595,16 @@ line-height: 22px;
     line-height: 22px;
 }
 
-.mammoth{
-    TOP: 547PX;
+.mammoth {
+    top: 554px;
     background-image: url(Images/mammoth-1257288_1920_1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 213PX;
-    width: 359px;
+    width: 323px;
     position: relative;
     left: 31px;
     border-radius: 5px;
-    
 
 }
 .footer2 {
@@ -632,35 +616,39 @@ line-height: 22px;
         background-color: #004DA5;
 }
 /*-------------------------------Biology and medicine------------------------*/
-.bio{
+.b-and-m{
+    top: -867px;
+    position: relative;
+}
+.bg-biology{
     background-image: url(../Images/jesse-orrico-60373.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
     height: 400px;
-    top: 2039px;
-    position: absolute;
+    top: 1125px;
+    position: relative;
 
 }
 .bio_headline {
-    position: absolute;
+    position: relative;
     width: 370px;
     height: 60px;
-    left: 31px;
-    top: 18px;
+    left: 51px;
+    top: 2070px;
     font-weight: 700;
     font-size: 28px;
     line-height: 41px;
     color: #000000;
+    z-index: 2;
 
 }
 .bio_text{
-    position: absolute;
+    position: RELATIVE;
     width: 357px;
     height: 770px;
     left: 16px;
-    top: 16px;
-
+    top: 294PX;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
@@ -668,11 +656,11 @@ line-height: 22px;
 }
 
 .bio_text2{
-    position: absolute;
+    position: relative;
     width: 357px;
     height: 770px;
     left: 22px;
-    top: 672px;
+    top: -120px;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
@@ -680,25 +668,24 @@ line-height: 22px;
 } 
 .heart{
     background-image: url(../Images/heart-2607178_1920.jpg);
-    position: absolute;
+    position: relative;
     background-size: contain;
     background-repeat: no-repeat;
     width: 339px;
     height: 227px;
     left: 25px;
-    top: 420px;
+    top: -154px;
     border-radius: var(--border-radius);
-    
 
 
 }
 .bg_bio {
     background-color: #E3C4A9;
-    position: absolute;
+    position: relative;
     width: 393px;
     height: 867px;
     left: 0px;
-    top: 367px;
+    top: 2359px;
 }
 /*-------------------Robotics & AI--------------------*/
 .robotics{
@@ -707,7 +694,7 @@ line-height: 22px;
     background-repeat: no-repeat;
     width: 100%;
     height: 410px;
-    top: 3142px;;
+    top: -670px;
     position: relative;
 }
 .robo-red{
@@ -761,7 +748,7 @@ line-height: 22px;
     background-size: contain;
     width: 100%;
     height: 420px;
-    top: 3678px;
+    top: -134px;
     position: relative;
 }
 
@@ -1347,71 +1334,115 @@ line-height: 22px;
 /*------------------------------Media Query-------------------------------*/
 /*------------------------------Media Query-------------------------------*/
 /*------------------------------Media Query-------------------------------*/
-@media (min-width:600px){
-        .container{
-        flex-direction: row;
-        justify-content: center;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------MEDIA QUERYS for NAV---------------------*/
+
+@media (min-width:969px){
+    #main-header{
+        padding-left:111.5px;
     }
+    .hamburger-icon{
+        display:none
+    }
+    .special_events {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .list-wrapper{
+        display:flex;
+        width: auto;
+        top:0px;
+        background-color: transparent;
+        border: 2px solid #DE904D;
+    
+        
+    }
+    li{
+        width: 191px;
+        height: 76px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    li > a{
+        color: #DE904D;
+        text-decoration: none;
+    }
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------------MEDIA QUERYS----------------------*/
+/*----------------------------------------------------------------*/
 
 @media (min-width:400px) {
 .row{
-    display: flex;
-    flex-direction: row;
-    justify-content:center ;
-}
-.bg_special {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    }
+ 
+.main_hall{
     width: 100%;
 }
+.bg_special {
+    width: 100%;
+}
+.black_gradient{
+    width: 100%;
+} 
 .night_at{
     top: 39px;
 }
 .energetica{
     top: 39px;
 }
-
+/*----------------------FOOTER QUERYS---------------------------*/
 .footer{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-
-    height: 359px;
-    top: -816px;
-
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        grid-gap: 10px;
+        justify-items: center;
+        height: 359px;
+        top: -816px;
+     
+    }
+.footer-exhibitions{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        grid-gap: 10px;
+        justify-items: center;
+        height: 359px;
+        top: 0px;
 }
+   
 .contact-hours{
     top: 210px;
     position: relative;
@@ -1422,11 +1453,11 @@ line-height: 22px;
 }
 .location {
     position: relative;
-    left: -97px;
+    left: 0px;
     bottom: 47px;
 }
 .admission {
-    left: -73px;
+    left: 0px;
     bottom: 87px;
     position: relative;
 }
@@ -1438,6 +1469,9 @@ line-height: 22px;
 .contact_us {
     left:18px;
 }
+
+
+/*----------------------------------------------*/
 .black-rectangle {
     max-width: 100%;
 }
@@ -1445,8 +1479,6 @@ line-height: 22px;
 .main_hall{
     width:100%;
  
-
-
 }
 .black-rectangle{
     width: 100%;
@@ -1455,4 +1487,212 @@ line-height: 22px;
     width: 100%;
 }
 
+.sign{
+   display:flex;
+   flex-direction:column;
+
 }
+/*---------------------------exhibitionquary---------------*/
+
+.exhibition{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 344px;
+    top: 86px;
+    position: relative;
+}
+.heading {
+    Font-family: Inter;
+    Font-style: Bold;
+    Font-size: 30px;
+    Line-height: 36px;
+    Line-height: 100%;
+    color: #FEFFBF;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 14px;
+    right: 33px;
+}
+.cosmo_text2 {
+    width: 363px;
+    height: 352px;
+    left: -510px;
+    top: 54px;
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FEFFBF;
+}
+.solarsystem {
+    background-image: url(../Images/SOLARSYSTEM.jpg);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 471px;
+    height: 241px;
+    left: 1094px;
+    top: -300px;
+    border-radius: 5px 5px 5px 5px;
+}
+.cosmo_text {
+    position: relative;
+    width: 363px;
+    height: 352px;
+    left: -470px;
+    top: 91px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FEFFBF;
+}
+/*------------------------------EVOLUTION------------------*/
+
+.evolution{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    top: 535px;
+
+}
+.bg_evolution {
+    position: absolute;
+    width: 100%;
+    height: 385px;
+    left: 0px;
+    top: 0px;
+    background: rgb(184 184 118);
+}
+
+.evo_text{
+    top: 52px;
+    position: relative;
+    width:540px;
+
+}
+.evo_text2{
+    top: 0px;
+    position: relative;
+    top: 25px;
+    position: relative;
+    width: 540px;
+}
+.evo_headline{
+    z-index: 10;
+    left: 195px;
+}
+
+.bg-evo{
+    background-image: url(../Images/skeleton-414543_1920_3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 384px;
+    top: 0px;
+    position: absolute;
+    left:60px;
+}
+.mammoth{
+    TOP: 54PX;
+    background-image: url(Images/mammoth-1257288_1920_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 307PX;
+    width: 419px;
+    position: relative;
+    left: 78px;
+    border-radius: 5px;
+
+}
+
+/*-----------------------------------------BIOLOGY---------------------_*/
+.bio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+.b-and-m {
+    top: 0px;
+    position: relative;
+}
+.bio_headline {
+    position: relative;
+    width: 370px;
+    height: 60px;
+    left: 120px;
+    top: 498px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 41px;
+    color: #000000;
+    z-index: 3;
+}
+.bg-biology{
+    background-image: url(../Images/jesse-orrico-60373.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 391px;
+    top: 421px;
+    position: relative;
+    left: 60px;
+    z-index: 1;
+
+}
+.bg_bio {
+    background-color: #E3C4A9;
+    position: absolute;
+    width: 100%;
+    height: 391px;
+    left: 0;
+    top: 481px;
+}
+
+.bio_text {
+    position: relative;
+    width: 510px;
+    height: 770px;
+    left: 10px;
+    top: 527px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    z-index: 1;
+}
+.bio_text2 {
+    position: relative;
+    width: 457px;
+    height: 770px;
+    left: 53px;
+    top: 526px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.heart {
+    background-image: url(../Images/heart-2607178_1920.jpg);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 339px;
+    height: 247px;
+    left: 638px;
+    top: -142px;
+    border-radius: var(--border-radius);
+}
+
+
+
+
+
+}
+
+
