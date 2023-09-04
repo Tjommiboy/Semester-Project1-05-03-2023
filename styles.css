@@ -1455,6 +1455,15 @@ top: 40px;
     top: 19px;
 }
    
+.footer-learn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    height: 359px;
+    top: 157px;
+    position: relative;
+}
 .contact-hours{
     top: 210px;
     position: relative;
@@ -1516,6 +1525,8 @@ top: 40px;
     top: 86px;
     position: relative;
 }
+
+
 .heading {
     Font-family: Inter;
     Font-style: Bold;
