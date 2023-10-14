@@ -4,7 +4,7 @@
     --color-golden: #de904d;
     --color-black: #000000;
     --color-science:rgb(232, 232, 54);
-    --width:393px;
+    --width:100%;
     --max-width:100%;
 }
 
@@ -13,6 +13,7 @@ html,body {
     max-width: 100%;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    background-color: #000000;
  
 }
 *{
@@ -35,7 +36,9 @@ html,body {
     z-index: 999;
     top:0px;
 }
-
+.logo{
+    text-decoration: none;
+}
 #logo{
     color: var(--color-white);
     width: 85px;
@@ -62,7 +65,19 @@ html,body {
     line-height: 56px;
     top: 163px;
     list-style: none;
-    border:2px solid rgba(0, 89, 255, 0.375);
+    border:2px solid  #de914d62;
+
+}
+li{
+    background-color: #000000;
+}
+li:hover{
+    background-color: #de914d62;
+    border-radius: 5px;
+  
+}
+.active{
+    color: #ebede4;
 
 }
 
@@ -88,10 +103,8 @@ html,body {
 
 /*----------------------------MAIN-MAIN-----------------------*/
 .main_main{
-    padding-top: 100px;
-    background-color: #c1bebe;
-    width: 100%;
-    height: 2065px;
+    width: max(1060px,90%);
+    margin:auto
 }
 
 .black-rectangle{
@@ -120,13 +133,14 @@ html,body {
 .main_hall{
     background-image: url(images/roberto-nickson-396152\ resize.jpg);
     background-repeat: no-repeat;
-    width: var(--width);
+    width: 100%;
     height: 625px;
     left: 0px;
     top: -37px;
     position: relative;
-    background-size: contain;
+    background-size: 100%;
     z-index: 0;
+    
 }
 
 
@@ -134,20 +148,26 @@ html,body {
     color:#DE904D;
     TEXT-DECORATION: none;
     font-weight: bold;
-    border: 2px solid var(--color-white);
+    border: 2px solid #de914d6b;
     border-radius: var(--border-radius);
     padding: 10px;
     left: 60px;
     top: 67px;
     position: relative;
-
 }
+
+.explorebutton:hover{
+    background-color: #de914d62;
+
+  
+}
+
 .note2 {
     position: relative;
     width: 322px;
     height: 70px;
     left: 44px;
-    top: 458px;
+    top: 561px;
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
@@ -194,7 +214,7 @@ html,body {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    height: 340px;
+    height: 237px;
     left: 0px;
     top: 39px;
     width: var(--width);
@@ -286,9 +306,9 @@ html,body {
 .screen3{
     position: relative;
     width: var(--width);
-    height: 340px;
+    height: 341px;
     left: 0px;
-    top: -152px;
+    top: -153px;
     background: rgba(0, 0, 0, 0.66);
 }
 /*----------------NIGHT AT THE MUSEUM----------------*/
@@ -329,9 +349,9 @@ html,body {
     top: 226.18px;
 }
 .screen4 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.69) 7.81%);
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.69) 7.81%);
     width: 100%;
-    height: 112px;
+    height: 114px;
     left: 0px;
     top: 194px;
     position: relative;
@@ -1395,7 +1415,7 @@ top: 40px;
         width: auto;
         top:0px;
         background-color: transparent;
-        border: 2px solid #DE904D;
+        border: 2px solid #de914d62;;
     }
 
     li{
@@ -1414,15 +1434,22 @@ top: 40px;
 /*----------------------------------------------------------------*/
 
 @media (min-width:400px) {
-.row{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-gap: 10px;
-    justify-items: center;
+
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        justify-items: center;
+        top: 20px;
+        position: relative;
+        width: max(1060px,90%);
+        margin: auto;
+    }
     }
  
 .main_hall{
     width: 100%;
+    background-image: cover;
 }
 .bg_special {
     width: 100%;
@@ -1437,14 +1464,16 @@ top: 40px;
     top: 39px;
 }
 /*----------------------FOOTER QUERYS---------------------------*/
-.footer{
+
+    .footer {
         display: grid;
-        grid-template-columns:1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10px;
         justify-items: center;
         height: 359px;
-        top: -816px;
-     
+        top: 65px;
+        width: max(1060px,90%);
+        margin: auto;
     }
 .footer-exhibitions{
     display: grid;
@@ -1818,7 +1847,7 @@ top: 40px;
 
 }
 
-}
+
 
 
 
