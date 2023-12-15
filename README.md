@@ -2,9 +2,9 @@
 
 Community Science Museum
 
-image
+![demo image](./images/demo.png)
 
-Setting up a page for the new local Community Science Museum.
+I was tasked to setup a page for the new local Community Science Museum.
 
 Description:
 
@@ -18,7 +18,7 @@ Learn & Teach
 Exhibition Spaces
 Contact Us
 
-The projects where built upon these programs tools and languages:
+The project was built upon these programs tools and languages:
 
 Photoshop
 Figma
