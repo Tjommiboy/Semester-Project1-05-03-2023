@@ -2,7 +2,7 @@
 
 Community Science Museum
 
-![demo image](./images/demo.png)
+![demo image]("./Images/demo.png")
 
 I was tasked to setup a page for the new local Community Science Museum.
 
