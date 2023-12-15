@@ -12,20 +12,20 @@ The website should captivate a youthful audience, while also considering the use
 
 the site consist of
 
-Homepage
-Get Involved
-Learn & Teach
-Exhibition Spaces
-Contact Us
+- Homepage
+- Get Involved
+- Learn & Teach
+- Exhibition Spaces
+- Contact Us
 
 The project was built upon these programs tools and languages:
 
-Photoshop
-Figma
-VScode
-Html,
-Css,  
-Github
+- Photoshop
+- Figma
+- VScode
+- Html
+- Css
+- Github
 
 The site has then been deploy via Netlify
 
